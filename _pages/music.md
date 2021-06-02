@@ -4,5 +4,7 @@ title: "Музыка"
 author_profile: true
 ---
 
-{% include embed-audio.html src="https://raw.githubusercontent.com/georgy-july/georgy-july.github.io/master/assets/audio/test.mp3" %}
+{% include embed-audio2.html audioname="Музыка 1" src="test.mp3" %}
+
+{% include embed-audio2.html audioname="Музыка 2" src="test.mp3" %}
 
