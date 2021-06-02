@@ -13,7 +13,7 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
+permalink: /:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Moscow
@@ -45,7 +45,7 @@ plugins:
 author:
   name   : "Юлий Леонов"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Гитарист, звукорежиссёр, дизайнер"
+  bio    : "Гитарист, звукорежиссёр"
   links:
     - label: "Bandcamp"
       icon: "fab fa-fw fa-bandcamp"
