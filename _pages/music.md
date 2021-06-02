@@ -6,4 +6,7 @@ audio_path: "https://raw.githubusercontent.com/georgy-july/georgy-july.github.io
 ---
 {% capture audio_path %}{{ page.audio_path }}{% endcapture %}
 
-Красивая композиция {% include embed-audio.html src=audio_path/test.mp3" %}}
+Красивая композиция {% include embed-audio.html src="audio_path/test.mp3" %}}
+
+audio_path
+{{ audio_path }}
