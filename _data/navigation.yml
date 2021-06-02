@@ -1,6 +1,8 @@
 main:
   - title: "Блог"
     url: /posts/
+  - title: "Музыка"
+    url: /music/
   - title: "Категории"
     url: /categories/
   - title: "Тэги"
