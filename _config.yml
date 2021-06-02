@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Juliy Leonov Space
+url: http://georgy-july.github.io
+baseurl: ""
 email: juliyl64@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Cool music bits creation and music arrangements, live guitar music. Создание музыкальных отрывков, аранжировка музыки, запись живой гитары.
