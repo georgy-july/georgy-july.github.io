@@ -18,7 +18,8 @@ url: http://georgy-july.github.io
 baseurl: ""
 email: juliyl64@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Cool music bits creation and music arrangements, live guitar music. Создание музыкальных отрывков, аранжировка музыки, запись живой гитары.
+ Cool music bits creation and music arrangements, live guitar music. 
+ Создание музыкальных отрывков, аранжировка музыки, запись живой гитары.
 #twitter_username: username
 github_username: georgy-july
 minimal_mistakes_skin: default
@@ -58,7 +59,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "July Leonov | Юлий Леонова"
+  name   : >-
+  July Leonov
+  Юлий Леонов
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
