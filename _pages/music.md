@@ -5,5 +5,5 @@ author_profile: true
 ---
 
 <audio controls>
-  <source src="test.mp3" type="audio/mp3">
+  <source src="assets/audio/test.mp3" type="audio/mp3">
 </audio>
