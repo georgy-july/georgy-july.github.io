@@ -1,7 +1,7 @@
 main:
-  - title: "Музыка"
-    url: /music/
-  - title: "Блог"
-    url: /posts/
-  - title: "Обо мне"
-    url: https://georgy-july.github.io/
+  - title  : "Музыка"
+    url    : /
+  - title  : "Обо мне"
+    url    : /about/
+  - title  : "Блог"
+    url    : /posts/

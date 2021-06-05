@@ -1,22 +1,25 @@
-title: Juliy Leonov Space
-url: http://georgy-july.github.io
-baseurl: ""
-email: juliyl64@gmail.com
+title                 : JAL Space
+url                   : http://georgy-july.github.io
+baseurl               : ""
+email                 : juliyl64@gmail.com
 description: >- 
  Cool music bits creation and music arrangements, live guitar music. 
  Создание музыкальных отрывков, аранжировка музыки, запись живой гитары.
-github_username: georgy-july
-minimal_mistakes_skin: default
-search: true
+github_username       : georgy-july
+minimal_mistakes_skin : default
+search                : true
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: Europe/Moscow
+markdown              : kramdown
+remote_theme          : mmistakes/minimal-mistakes
+permalink             : /:title/
+paginate              : 5
+paginate_path         : /page:num/
+timezone              : Europe/Moscow
+date_format           : "%Y-%m-%d"
+locale                : "ru-RU"
+
+teaser                : /assets/images/default/teaserfallback.png
+logo                  : /assets/images/default/logo.png
 
 include:
   - _pages
@@ -43,25 +46,39 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Юлий Леонов"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Гитарист, звукорежиссёр"
+  name                : "Juliy Leonov"
+  avatar              : "/assets/images/default/bio-photo.jpg"
+  bio                 : "Это я!"
+  location            : "Москва, Россия"
   links:
-    - label: "Bandcamp"
-      icon: "fab fa-fw fa-bandcamp"
-      url: "https://bandcamp.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/georgy-july"
+    - label           : "GitHub"
+      icon            : "fab fa-fw fa-github"
+      url             : "https://github.com/"
+    - label           : "LinkedIn"
+      icon            : "fab fa-fw fa-linkedin"
+      url             : "https://www.linkedin.com/"
+    - label           : "SoundCloud"
+      icon            : "fab fa-fw fa-soundcloud"
+      url             : "https://soundcloud.com/"
+    - label           : "Facebook"
+      icon            : "fab fa-fw fa-facebook"
+      url             : "https://facebook.com/"
 
 footer:
   links:
-    - label: "Bandcamp"
-      icon: "fab fa-fw fa-bandcamp"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+    - label           : "GH"
+      icon            : "fab fa-fw fa-github"
+      url             : "https://github.com/"
+    - label           : "LI"
+      icon            : "fab fa-fw fa-linkedin"
+      url             : "https://www.linkedin.com/"
+    - label           : "SC"
+      icon            : "fab fa-fw fa-soundcloud"
+      url             : "https://soundcloud.com/"
+    - label           : "FB"
+      icon            : "fab fa-fw fa-facebook"
+      url             : "https://facebook.com/"
+encoding              : "utf-8"
 
 defaults:
   # _posts
@@ -71,10 +88,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
