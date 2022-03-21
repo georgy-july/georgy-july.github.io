@@ -60,9 +60,6 @@ author:
     - label           : "SoundCloud"
       icon            : "fab fa-fw fa-soundcloud"
       url             : "https://soundcloud.com/"
-    - label           : "Facebook"
-      icon            : "fab fa-fw fa-facebook"
-      url             : "https://facebook.com/"
 
 footer:
   links:
@@ -75,9 +72,6 @@ footer:
     - label           : "SC"
       icon            : "fab fa-fw fa-soundcloud"
       url             : "https://soundcloud.com/"
-    - label           : "FB"
-      icon            : "fab fa-fw fa-facebook"
-      url             : "https://facebook.com/"
 encoding              : "utf-8"
 
 defaults:
