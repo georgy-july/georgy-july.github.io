@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 permalink: /
 title: "Музыка"
-last_modified_at: 2021-06-04T16:20:02-05:00
+last_modified_at: 2022-04-03T16:20:02-05:00
 custom_css: audioplayer
 custom_js: audioplayer
 excerpt: "Кликните на трек в списке для начала воспроизведения"
@@ -11,36 +11,15 @@ header:
   overlay_image: /assets/images/default/musicheader.png
   overlay_filter: 0.5
   caption: "Источник: [**Waveformer**](https://www.misha.studio/waveformer/)"  
-music:
-  - name: "Музыка 1 | эл.гитара, флейта"
-    url: /assets/audio/test.mp3
-  - name: "Песня 1 | слова И. Иванова"
-    url: http://www.archive.org/download/bolero_69/Bolero.mp3
-  - name: "Музыка 2 | ак. гитара, романс"
-    url: http://www.archive.org/download/bolero_69/Bolero.mp3
-  - name: "Песня 2 | слова П. Васечкина"
-    url: http://www.archive.org/download/bolero_69/Bolero.mp3
-  - name: "Песня с длинным названием и описанием | эл. гитара, бас, барабаны | слова С. Миронов"
-    url: http://www.archive.org/download/bolero_69/Bolero.mp3
-  - name: "Музыка 3 | пианино, флейта"
-    url: http://www.archive.org/download/bolero_69/Bolero.mp3
-  - name: "Синий гном | слова и музыка С. Трубкин | ар. Юлий Леонов"
-    url: /assets/audio/test.mp3
 ---
 
 Привет!
 
-Кликните на трек в списке для начала воспроизведения.
-Не забудьте нажать на плеере пиктограмму _unmute_, громкость по умолчанию будет 30%. 
+Занимаюсь аранжировкой не один год. Создавал музыку для телевидения. Мои работы использовались для озвучивания документального кино. Я работал и работаю в программах Studio One, Pro Tools, Cubase, Samplitude. В моей домашней студии есть необходимый набор оборудования, позволяющий решать широкий круг задач. Есть набор гитар (электрических и акустической), микрофоны, предусилители, контролеры, звуковые экраны. 
 
-<audio id="audio" preload="metadata" autoplay="false" muted tabindex="0" controls type="audio/mp3">
-  <source type="audio/mp3" src="">
-  Sorry, your browser does not support HTML5 audio.
-</audio>
-<ul id="playlist">
-  {% for track in page.music %}
-    <li>
-      <a href="{{ track.url }}"><span class="fas fa-play-circle fa-sm" aria-hidden="true">  {{ track.name }}</span></a>
-    </li>
-  {% endfor %}
-</ul>
+Примеры моих работ представлены ниже. Также вы можете их послушать в моем профиле [Soundcloud](https://soundcloud.com/juliy_l/sets). 
+
+[Bits](/music/bits/) | [Поп](/music/pop/) | [Авторские песни](/music/authorsongs/) |
+[Баллады](/music/ballads/) | [Гитарная музыка](/music/guitar/) | [Фоновая музыка](/music/background/) |
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1419043819&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/juliy_l" title="JuliyL" target="_blank" style="color: #cccccc; text-decoration: none;">JuliyL</a> · <a href="https://soundcloud.com/juliy_l/sets/fresh-breeze" title="Fresh Breeze" target="_blank" style="color: #cccccc; text-decoration: none;">Fresh Breeze</a></div>

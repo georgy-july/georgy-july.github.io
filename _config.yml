@@ -59,7 +59,7 @@ author:
       url             : "https://www.linkedin.com/"
     - label           : "SoundCloud"
       icon            : "fab fa-fw fa-soundcloud"
-      url             : "https://soundcloud.com/"
+      url             : "https://soundcloud.com/juliy_l/"
 
 footer:
   links:
@@ -71,7 +71,7 @@ footer:
       url             : "https://www.linkedin.com/"
     - label           : "SC"
       icon            : "fab fa-fw fa-soundcloud"
-      url             : "https://soundcloud.com/"
+      url             : "https://soundcloud.com/juliy_l/"
 encoding              : "utf-8"
 
 defaults:
